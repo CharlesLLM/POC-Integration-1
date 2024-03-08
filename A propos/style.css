@@ -1,0 +1,681 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{
+    line-height:150% !important;
+}
+
+.icon-success {
+    color: #2667FF;
+}
+
+body{
+    font-family: 'Nunito sans',serif;
+    color:#2667FF;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+    font-family: 'Quicksand',serif !important;
+    color: #0B1460;
+}
+
+header{
+    background-color: #0B1460;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.blacker{
+    color: black !important;
+}
+
+/* MAIN */
+
+#main{
+    background-image: url('../librairies/faq/bg-pagetitle.png');
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    height: 300px;
+    background-color: #f5f9fc;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse {
+    text-align: left;
+}
+
+.navbar{
+    background: none;
+    border: none;
+}
+
+#nb ul li a{
+    font-size: larger;
+    margin-top: 10px;
+    font-family: 'Quicksand',serif;
+    color: #000;
+    font-weight: bold;
+}
+
+#nb ul li a:last-child{
+    color: #000;
+    font-weight: bold;
+}
+
+#main img{
+    padding-top: 20px;
+    width: 20%;
+    height: auto;
+}
+
+#main h2{
+    padding-left: 30px;
+}
+
+#contact-top{
+    margin-left: 100px;
+}
+
+#main h4{
+    margin: 100px 0 0 400px;
+}   
+
+/* ABOUT */
+
+#about h5{
+    color: #2667FF;
+}
+
+.glyphicon-tags{
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+#about{
+    padding: 75px 0;
+}
+
+#about h1,#about h5{
+    text-align: left;
+}
+
+.start{
+    background-color: #2667FF;
+    color: white;
+    padding: 9px 32px;
+    margin-top: 25px;
+}
+
+.start h6{
+    margin: 0;
+}
+
+/* SERVICES */
+
+#service{
+    background-color: #2667FF;
+    background-image: url('../librairies/a propos/bg-facts.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#service h2,h5{
+    text-align: center;
+    color: white;
+}
+
+.service-box{
+    margin-top: 10px;
+    padding: 17px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.service-box:not(:first-child){
+    margin-left:20px;
+}
+
+#s4{
+    margin-left: 250px !important;
+}
+
+.service-box h4{
+    color: #0B1460 !important;
+}
+
+.service-box img{
+    padding: 25px 0 0 10px;
+}
+
+/* PRESENTATION */
+
+#ctn-pres{
+    position: relative;
+    bottom: 80px;
+}
+
+.pres{
+    box-shadow: 1px 1px 1px #ddd;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.pres h5{
+    color: #2667FF;
+}
+
+.pres img{
+    margin-top: 10px;
+}
+
+#stats{
+    margin-top: 50px;
+    background-image: url('../librairies/a propos/bg-couter.png');
+    background-color: #2667FF;
+    text-align: center;
+    width: 60%;
+    border-radius: 10px;
+}
+
+#stats h1, #stats h6{
+    color: white !important; 
+}
+
+#stats h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#stats h4{
+    margin-bottom: 0;
+}
+
+#faq{
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+    text-align:left !important;
+}
+
+#faq h5{
+    color: #2667FF;
+    text-align: left;
+}
+
+#faq img{
+    size: 10%;
+}
+
+
+
+/* UPDATE */
+#update{
+    padding: 50px 0;
+    background-color:#0B1460;
+    background-image: url('../librairies/home/bg-3.png');
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#update h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: 'Quicksand',serif;
+    color: white;
+}
+
+#update h6{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #00feb1;
+}
+
+#sumbit-update{
+    padding: 8px 20px;
+}
+
+.check{
+    color: #f9b300;
+}
+
+.btn-contact{
+    background: #2667FF;
+    color:white !important;
+    font-family: 'Quicksand',serif;
+    padding: 10px 30px !important;
+}
+
+/* accordion */ 
+
+.accordion:first-child{
+    margin-top: 50px;
+}
+
+.accordion{
+    margin-top: 1px;
+}
+
+.accordion-collapse {
+    border: none;
+}
+
+/* cliquable */
+.accordion-button {
+    padding: 0px;
+    font-weight: bold;
+    border: 0;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    padding: 10px 15px;
+    background-color: #f0f4ff;
+    padding: 15px 15px;
+}
+
+/* question apres s'etre défilé */
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+
+/* question défilé */
+.accordion-button:not(.collapsed) {
+    background: none;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    box-shadow: 10px 5px 5px #ddd;
+}
+
+/* texte qui defile */
+.accordion-body { 
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+
+/* boutton */ 
+.accordion-button::after {
+    width: auto;
+    height: auto;
+    content: "+";
+    font-size: 40px;
+    background-image: none;
+    font-weight: 100;
+    color: #1b6ce5;
+    transform: translateY(-4px);
+}
+
+/* boutton - */
+.accordion-button:not(.collapsed)::after {
+    width: auto;
+    height: auto;
+    background-image: none;
+    content: "-";
+    font-size: 48px;
+    transform: translate(-5px, -4px);
+    transform: rotate(0deg);
+}
+
+button.accordion-button.collapsed {
+    background-color: #fff;
+}
+
+/* FIN */
+
+#fin{
+    margin-top:40px;
+}
+
+#fin p{
+    color: #a7aab9;
+}
+
+#fin h4,h6{
+    color: #0B1460;
+}
+
+#fin h4{
+    font-weight: 900;
+}
+
+
+/* FOOTER */
+
+#footer{
+    background-color: #f5f9fc;
+    color: #000;
+    text-align: center;
+    margin: 30px auto;
+    width: 66%;
+    padding-top: 10px;
+}
+
+/* responsive */
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+        position: relative;
+        right: -75px;
+
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        position: relative;
+        right: 175px;
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+        margin-left: 50px;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+@media (max-width:768px){
+    #main h4{
+        margin: 0;
+        margin-top: 100px;
+        width: 110%;
+    }
+
+    #about h1,#about h5{
+        text-align: left;
+    }
+
+    .txt{
+        margin-left: 30px;
+    }
+
+    .start{
+        width: 90%;
+        margin-bottom: 90px;
+    }
+
+    .decal{
+        float: right;
+        /* padding-top: 5px; */
+    }
+
+    #service{
+        height: 800px;
+    }
+
+    #service h2{
+        padding-top: 30px;
+    }
+
+    .service-box:not(:first-child){
+        margin: 0 ;
+    }
+
+    .service-box:first-child{
+        margin-left:180px;
+        margin-bottom: 20px;
+    }
+
+    #s2{
+        margin-right: 20px;
+        margin-left: 50px;
+    }
+
+    #s2,#s3{
+        margin-bottom: 20px;
+    }
+
+    #s4{
+        margin: 0 20px 0 50px!important;
+    }
+
+    .pres{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    #ctn-pres{
+        bottom: 250px !important;
+    }
+
+    #row2,#stats,#faq{
+        position: relative;
+        bottom: 250px;
+    }
+
+    #stats{
+        background-repeat: no-repeat;
+        width: 150%;
+    }
+
+    #faq{
+        height: 1000px;
+    }
+
+    #charles{
+        margin-left: 30px;
+    }
+
+    #img-faq{
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 80%;
+        height: auto;
+    }
+
+    #deco1{
+        position: relative;
+        bottom: 605px;
+        right: 40px;
+        width: 18%;
+    }
+    
+    #deco2{
+        position: relative;
+        bottom: 101px;
+        right: 145px;
+        width: 18%;
+    }
+    
+    #deco3{
+        position: relative;
+        bottom: 620px;
+        left: 320px;
+        size: 5%;
+    }
+    
+    #deco4{
+        position: relative;
+        bottom: 125px;
+        left: 180px;
+        width: 25%;
+        z-index: -1;
+    }
+}
+
+@media (max-width:440px){
+    .navbar-toggle {
+        display: block;
+        position: relative;
+        right: -40px;
+    }
+
+    #main h4{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px; left: -325px; 
+        width: 110%; 
+        height: 50px;
+        font-size: 90%;
+    }
+
+    .txt{
+        margin: 0 !important;
+    }
+
+    #service{
+        height: 1600px;
+    }
+
+    .service-box{
+        margin: 10px auto !important;
+        width: 95%;
+    }
+
+    .service-box h6{
+        font-size:  larger ;
+        padding: 0 5px;
+    }
+
+    .service-box h4, .service-box h6{
+        text-align: center;
+    }
+
+    #s4{
+        margin: 10px auto !important;
+    }
+
+    .ptite-icone{
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em
+    }
+
+    .pres{
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    #stats{
+        width: 100%;
+        padding:20px 0;
+    }
+
+    #stats h1,#stats h6{
+        margin: 0 !important;
+    }
+
+    #img-faq{
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: -30px;
+    }
+
+    #charles{
+        margin: 0;
+    }
+
+    #deco1 {
+        position: relative;
+        bottom: 422px;
+        right: 0px;
+        width: 27%;
+    }
+    
+    #deco2 {
+        position: relative;
+        bottom: 86px;
+        right: 74px;
+        width: 30%;
+    }
+    
+    #deco3 {
+        position: relative;
+        bottom: 418px;
+        left: 134px;
+        width: auto;
+    }
+    
+    #deco4{
+        position: relative;
+        bottom: 60px;
+        left: -30px;
+        width: 25%;
+        z-index: -1;
+    }
+}
+
+@media (min-width:1090px){
+    .pres{
+        width: 20%;
+        margin-top: 10px;
+    }
+
+    .pres:not(:first-child){
+        margin-left:30px;
+    }
+
+    #deco1{
+        position: relative;
+        bottom: 470px;
+        right: 65px;
+        width: 18%;
+    }
+    
+    #deco2{
+        position: relative;
+        bottom: 50px;
+        right: 105px;
+        width: 23%;
+    }
+    
+    #deco3{
+        position: relative;
+        bottom: 460px;
+        left: 230px;
+        size: 5%;
+    }
+    
+    #deco4{
+        position: relative;
+        bottom: 60px;
+        left: 180px;
+        width: 25%;
+        z-index: -1;
+    }
+}
